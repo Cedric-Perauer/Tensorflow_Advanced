@@ -1,3 +1,5 @@
+import tensorflow as tf 
+
 # Detect hardware
 try:
   tpu = tf.distribute.cluster_resolver.TPUClusterResolver() # TPU detection
